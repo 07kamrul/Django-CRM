@@ -102,6 +102,7 @@ def home(request):
 
     products = Product.objects.all()
     total_products = products.count()
+
     total_orders = orders.count()
 
     delivered = orders.count()
